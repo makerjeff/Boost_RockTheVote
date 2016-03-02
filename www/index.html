@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock the Vote</title>
+
+<style>
+    /*MUST DECLARE, OTHERWISE BODY DOESN'T FILL*/
+    /*this bypasses the need for 'adjustWindow.js'*/
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    #topNav {
+
+        /*display: flex;*/
+        position: relative;
+
+        padding: 0px 0px 0px 10px;
+
+        top: 0px;
+        left: 0px;
+
+        width: 100%;
+        height: 100px;
+
+        background: rgba(240,240,100, 1.0);
+
+        /*justify-content: flex-end;*/
+        /*align-items: center;*/
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+
+        width: 100%;
+        height: 100px;
+
+        background: rgba(240,240,100, 1.0);
+    }
+
+</style>
+</head>
+<body>
+
+<div id="topNav">
+    <ul>
+        <li> Dummy Boost Mobile Content Header</li>
+    </ul>
+</div>
+
+<iframe src="https://register2.rockthevote.com/registrants/map/?source=iframe&partner=32111" width="100%" height="1200" marginheight="0" frameborder="0"></iframe>
+
+<footer id="footer">
+    some footer content.
+</footer>
+</body>
+</html>
